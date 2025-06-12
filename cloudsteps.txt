@@ -1,0 +1,47 @@
+Ensure your MERN app is fully developed and tested locally.
+
+Create a Microsoft Azure account and sign in.
+
+Set Up MongoDB Atlas:
+
+Sign up at MongoDB Atlas.
+
+Create a new cluster and configure it as needed.
+
+Prepare your MERN App for Deployment:
+
+Use environment variables for sensitive data like MongoDB URI.
+
+Build your React frontend:
+
+bash
+Copier
+Modifier
+npm run build
+Create Azure Web App:
+
+Go to the Azure portal > "Create a resource" > "Web" > "Web App".
+
+Fill in details like app name, resource group, region, and pricing tier.
+
+Set Up Deployment Source:
+
+In "Deployment Center", select the source (Local Git or GitHub).
+
+Deploy your MERN App:
+
+Clone the Azure Web App's Git repository to your local machine.
+
+Copy built React frontend to server/public.
+
+Commit and push changes to Azure Git repository.
+
+Configure Environment Variables:
+
+In "Configuration" under Azure Web App settings, set environment variables like MongoDB URI.
+
+Test Your Deployed MERN App:
+
+Access the app URL provided by Azure.
+
+Test all functionalities.
